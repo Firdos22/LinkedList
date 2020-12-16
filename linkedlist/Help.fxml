@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="linkedlist.HelpController">
+   <children>
+      <Label layoutX="91.0" layoutY="12.0" prefHeight="65.0" prefWidth="101.0" text="Help">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="52.0" layoutX="553.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../info1.png" />
+         </image>
+      </ImageView>
+      <ScrollPane layoutY="79.0" prefHeight="331.0" prefWidth="660.0">
+        <content>
+            <VBox prefHeight="774.0" prefWidth="710.0">
+               <children>
+                  <VBox prefHeight="104.0" prefWidth="612.0">
+                     <children>
+                        <Label prefHeight="76.0" prefWidth="595.0" text="Instruction:-&#10;    Right_click on each button to open the content(Except Help button)" textFill="#908c0b">
+                           <font>
+                              <Font name="Arial" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="48.0" prefWidth="532.0" text="Create" textFill="#117552" underline="true" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="17.0" prefWidth="519.0" text="Create operation is used to create constituent node when required." textFill="#161717">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="50.0" layoutY="30.0" prefHeight="99.0" prefWidth="602.0">
+                     <children>
+                        <Label prefHeight="48.0" prefWidth="538.0" text="Insert" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="67.0" prefWidth="532.0" text="Insert operation is used to insert new node in the linked list. &#10;We can inser elements using 3 cases. &#10;Insert Begin, Insert Between,Insert End." textAlignment="JUSTIFY">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="50.0" layoutY="115.0" prefHeight="68.0" prefWidth="554.0">
+                     <children>
+                        <Label prefHeight="57.0" prefWidth="538.0" text="Insert_begin" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="36.0" prefWidth="532.0" text="It involve inserting a new node. It insert the new node at beginning of the linked list.&#10;" textAlignment="JUSTIFY">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="85.0" prefWidth="548.0">
+                     <children>
+                        <Label prefHeight="42.0" prefWidth="538.0" text="Insert_between" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="43.0" prefWidth="536.0" text="It involves inserting new element between the nodes.&#10;We need to skip the desired number of nodes in order to reach the destination.">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Label prefHeight="36.0" prefWidth="538.0" text="Insert_end" textFill="#117552" underline="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="27.0" prefWidth="532.0" text="It involves insertion of node at the end of linked list.">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="85.0" prefWidth="548.0">
+                     <children>
+                        <Label prefHeight="38.0" prefWidth="538.0" text="Remove" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="97.0" prefWidth="565.0" text="Remove operation is used to remove node from the list. &#10;We can delete an elements using 3 cases. &#10;Remove Begin,Remove Between, and Remove End.">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Label prefHeight="37.0" prefWidth="538.0" text="Remove_begin" textFill="#117552" underline="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="23.0" prefWidth="532.0" text="It removes element from the beginning of the linked list." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <VBox prefHeight="68.0" prefWidth="587.0">
+                     <children>
+                        <Label prefHeight="44.0" prefWidth="538.0" text="Remove_between" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="61.0" prefWidth="532.0" text="Removes element from middle of the linked list. We have to give search value then&#10; the next node o search value will be deleted." wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Label prefHeight="44.0" prefWidth="538.0" text="Remove-end" textFill="#117552" underline="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="31.0" prefWidth="532.0" text="It will remove the last node of the linked list." wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <VBox layoutX="50.0" layoutY="564.0" prefHeight="80.0" prefWidth="592.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="530.0" text="Clear" textFill="#117552" underline="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="11.0" prefWidth="532.0" text="It will clears the whole linked list." wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets left="40.0" top="20.0" />
+               </padding>
+            </VBox>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
